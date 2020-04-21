@@ -1,25 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import Header from './components/layout/Header';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faGithub,
+  faLinkedin,
+  faFacebook,
+} from '@fortawesome/free-brands-svg-icons';
+import './css/main.css';
+import Routing from './components/layout/routing';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    //<Router> - alias for BrowserRouter imported above. exact prevents main page from allways showing
+    <Routing />
   );
 }
 
