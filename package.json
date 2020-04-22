@@ -1,5 +1,5 @@
 {
-  "homepage": "http://RslWlsn3.github.io/Portfolio-Website-React",
+  "homepage": "https://RslWlsn3.github.io/Portfolio-Website-React",
   "name": "portfolio-website-react2",
   "version": "0.1.0",
   "private": true,
@@ -25,7 +25,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "dh-pages -d build"
+    "predeploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -43,6 +43,7 @@ function LandingPage() {
           </a>
         </div>
       </main>
+
     </body>
   );
 }

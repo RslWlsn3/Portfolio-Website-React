@@ -78,7 +78,7 @@
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  background: url("../img/portrait4.png");
+  background: url("../img/portrait3.png");
   border-radius: 50%;
   border: solid 3px #336dff;
 }
@@ -166,7 +166,6 @@ h3.lg-heading {
 h1.sm-heading,
 h2.sm-heading,
 h3.sm-heading {
-  margin-bottom: 2rem;
   padding: 0.2rem 1rem;
   background: rgba(73, 73, 73, 0.85);
 }
@@ -195,18 +194,6 @@ main {
   padding: 4rem;
   min-height: calc( 100vh - 60px );
 }
-main .icons {
-  margin: 1rem;
-}
-main .icons a {
-  padding: 0.6rem;
-  float: left;
-}
-main .icons .fab:hover {
-  transform: scale(1.12);
-  color: #336dff;
-  transition: all 0.5s ease-out;
-}
 main#home {
   overflow: hidden;
   position: fixed;
@@ -214,6 +201,20 @@ main#home {
 }
 main#home h1 {
   margin-top: 20vh;
+}
+
+.icons {
+  margin: 1rem;
+  padding: 0rem;
+}
+.icons a {
+  padding: 0.6rem;
+  float: left;
+}
+.icons .fab:hover {
+  transform: scale(1.12);
+  color: #336dff;
+  transition: all 0.5s ease-out;
 }
 
 .about-info {
@@ -314,12 +315,78 @@ main#home h1 {
 }
 
 @media screen and (max-width: 500px) {
+  .lg-heading {
+    line-height: 0.9;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+
+  .menu-nav,
+.menu-branding {
+    float: none;
+    width: 100%;
+    min-height: 0;
+  }
+  .menu-nav.show,
+.menu-branding.show {
+    transform: translate3d(0, 0, 0);
+  }
+
+  .menu-nav {
+    height: 75vh;
+    transform: translate3d(-100%, 0, 0);
+    font-size: 24px;
+    background: rgba(55, 55, 55, 0.95);
+  }
+
+  .menu-branding {
+    height: 25vh;
+    transform: translate3d(100%, 0, 0);
+  }
+  .menu-branding .portrait {
+    background: url("../img/portrait_small.png");
+    width: 150px;
+    height: 150px;
+  }
+
+  .about-info {
+    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+    grid-template-columns: 1fr;
+  }
+  .about-info .bio-image {
+    content: url("../img/portrait3.png");
+  }
+
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   main#home h1 {
-    margin-top: 10vh;
+    margin-top: 15vh;
     font-weight: 400;
+    font-size: 5rem;
+  }
+
+  main {
+    padding: 1.2rem;
+    align-items: center;
+    text-align: center;
+  }
+  main .sm-heading {
+    margin-bottom: 0rem;
+    padding: 0rem 0rem;
+    font-size: 1.4rem;
+  }
+
+  .icons {
+    width: 150px;
+    margin: 0 auto;
+  }
+  .icons a {
+    float: left;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 501px) and (max-width: 768px) {
   main {
     align-items: center;
     text-align: center;
