@@ -22,7 +22,10 @@ export default function SeniorPrj_card() {
 
   return (
     <Card className={classes.root}>
-      <CardActionArea>
+      <CardActionArea
+        target="_blank"
+        href="https://drive.google.com/file/d/19LoR_ePImNTTQV1Om-6utxzuFWfpdgEn/view?usp=sharing"
+      >
         <CardMedia
           className={classes.media}
           image={require('../../../img/projects/SeniorPrj.PNG')}
@@ -53,7 +56,7 @@ export default function SeniorPrj_card() {
           size="small"
           color="primary"
           target="_blank"
-          href="https://drive.google.com/file/d/1785AAAOyb8AIM0dxvYhC7LCh-714VHCF/view?usp=sharing"
+          href="https://drive.google.com/file/d/19LoR_ePImNTTQV1Om-6utxzuFWfpdgEn/view?usp=sharing"
         >
           Watch Presentation
         </Button>

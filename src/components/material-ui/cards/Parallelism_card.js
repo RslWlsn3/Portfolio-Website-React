@@ -22,7 +22,10 @@ export default function Parallelism_card() {
 
   return (
     <Card className={classes.root}>
-      <CardActionArea>
+      <CardActionArea
+        target="_blank"
+        href="https://github.com/RslWlsn3/Parallelism-RFI"
+      >
         <CardMedia
           className={classes.media}
           image={require('../../../img/projects/Parallelism.png')}

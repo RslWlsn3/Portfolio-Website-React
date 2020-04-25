@@ -17,25 +17,28 @@ const useStyles = makeStyles({
   },
 });
 
-export default function Project5Card() {
+export default function FallingBlock_card() {
   const classes = useStyles();
 
   return (
     <Card className={classes.root}>
-      <CardActionArea>
+      <CardActionArea
+        target="_blank"
+        href="https://github.com/RslWlsn3/Falling_block_game"
+      >
         <CardMedia
           className={classes.media}
-          image={require('../../../img/projects/project5.png')}
-          title="Tic Tac Toe"
+          image={require('../../../img/projects/project4.png')}
+          title="Falling block game"
           style={{ height: 0, paddingTop: '75%' }}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Tic Tac Toe
+            Falling block game
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Single or two player tic tac toe game. The game can be played with
-            the console or a GUI created with Tkinter.
+          <Typography variant="body3" color="textSecondary" component="p">
+            This is a game where you try to dodge the falling blocks. The player
+            can use the left and right arrow keys to move.
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -44,7 +47,7 @@ export default function Project5Card() {
           size="small"
           color="primary"
           target="_blank"
-          href="https://github.com/RslWlsn3/Tic_Tac_toe"
+          href="https://github.com/RslWlsn3/Falling_block_game"
         >
           GITHUB
         </Button>

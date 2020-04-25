@@ -17,30 +17,38 @@ const useStyles = makeStyles({
   },
 });
 
-export default function Project6Card() {
+export default function TTT_card() {
   const classes = useStyles();
 
   return (
     <Card className={classes.root}>
-      <CardActionArea>
+      <CardActionArea
+        target="_blank"
+        href="https://github.com/RslWlsn3/Tic_Tac_toe"
+      >
         <CardMedia
           className={classes.media}
-          image={require('../../../img/projects/project6.PNG')}
-          title="Porfolio website"
+          image={require('../../../img/projects/project5.png')}
+          title="Tic Tac Toe"
           style={{ height: 0, paddingTop: '75%' }}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            My Porfolio website
+            Tic Tac Toe
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            I built this website using Sass, React, and Material UI. I am
-            currently hosting with GitHub Pages.
+          <Typography variant="body3" color="textSecondary" component="p">
+            Single or two player tic tac toe game. The game can be played with
+            the console or a GUI created with Tkinter.
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary" target="_blank" href="!#">
+        <Button
+          size="small"
+          color="primary"
+          target="_blank"
+          href="https://github.com/RslWlsn3/Tic_Tac_toe"
+        >
           GITHUB
         </Button>
       </CardActions>

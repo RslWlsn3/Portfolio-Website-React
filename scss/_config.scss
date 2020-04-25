@@ -21,8 +21,12 @@ $background-opacity: 0.9;
         position: absolute;
         top: 0;
         right: 0;
+        bottom: 0;
         width: 100%;
         height: 100%;
+        @include phone {
+          height: 110%;
+        }
         z-index: 0; //push to very back, neg to
         background: rgba($primary-color, $background-opacity);
       }
@@ -40,6 +44,12 @@ $background-opacity: 0.9;
 // }
 
 //Media Query Mixins
+@mixin phone {
+  //only applys if screen is 500px or less.
+  @media screen and (max-width: 495px) {
+    @content; //@content - add mediaSm anywhere and add code to it, the code will replace the @content
+  }
+}
 @mixin mediaSm {
   //only applys if screen is 500px or less.
   @media screen and (max-width: 500px) {

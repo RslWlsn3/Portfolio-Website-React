@@ -17,12 +17,15 @@ const useStyles = makeStyles({
   },
 });
 
-export default function Project1Card() {
+export default function BaseStation_card() {
   const classes = useStyles();
 
   return (
     <Card className={classes.root}>
-      <CardActionArea>
+      <CardActionArea
+        target="_blank"
+        href="https://github.com/RslWlsn3/Custom_BaseStationEmulator"
+      >
         <CardMedia
           className={classes.media}
           image={require('../../../img/projects/project1.png')}
@@ -45,7 +48,7 @@ export default function Project1Card() {
           size="small"
           color="primary"
           target="_blank"
-          href="hhttps://github.com/RslWlsn3/Custom_BaseStationEmulator"
+          href="https://github.com/RslWlsn3/Custom_BaseStationEmulator"
         >
           GITHUB
         </Button>

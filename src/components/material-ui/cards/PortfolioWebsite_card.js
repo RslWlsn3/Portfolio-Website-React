@@ -17,25 +17,29 @@ const useStyles = makeStyles({
   },
 });
 
-export default function Project4Card() {
+export default function PortfolioWebsite_card() {
   const classes = useStyles();
 
   return (
     <Card className={classes.root}>
-      <CardActionArea>
+      <CardActionArea
+        target="_blank"
+        href="https://github.com/RslWlsn3/Portfolio-Website-React"
+      >
         <CardMedia
           className={classes.media}
-          image={require('../../../img/projects/project4.png')}
-          title="Falling block game"
+          image={require('../../../img/projects/project6.PNG')}
+          title="Porfolio website"
           style={{ height: 0, paddingTop: '75%' }}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Falling block game
+            My Porfolio website
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            This is a game where you try to dodge the falling blocks. The player
-            can use the left and right arrow keys to move.
+          <Typography variant="body3" color="textSecondary" component="p">
+            I built this website using Sass, React, and Material UI.
+            Responsiveness with kept in mind throughout development. I am
+            currently hosting with GitHub Pages.
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -44,7 +48,7 @@ export default function Project4Card() {
           size="small"
           color="primary"
           target="_blank"
-          href="https://github.com/RslWlsn3/Falling_block_game"
+          href="https://github.com/RslWlsn3/Portfolio-Website-React"
         >
           GITHUB
         </Button>

@@ -1,5 +1,6 @@
 //Widescreens
 @include mediaSm {
+
   .lg-heading {
     line-height: 0.9;
     margin-bottom: 1rem;
@@ -78,7 +79,7 @@
   #about {
     .lg-heading {
       font-size: 4rem;
-      padding-top: 3rem;      
+      padding-top: 3rem;
     }
   }
   .boxes {
