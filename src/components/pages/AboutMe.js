@@ -12,27 +12,31 @@ function AboutMe() {
         </h1>
         <h2 className="sm-heading">Let me tell you a few things...</h2>
         <div className="about-info">
-          <img
-            src={require('../../img/portrait.png')}
-            alt="Connor Mote"
-            className="bio-image"
-          />
-          <div className="bio">
-            <h3 className="text-secondary">BIO</h3>
-            <p>
-              Senior computer science and business student, graduating May,
-              2020. I have worked with an array of technologies in diﬀerent
-              settings and am excited to continue expanding my skills and to
-              take on new challenges.
-            </p>
-            <p>
-              I have spent the last two summers  working as a Software Developer
-              Intern at Washington River Protection Solutions. These experiences
-              not only helped me learn a variety of technologies and skills  but
-              confirmed my passion for software development. I anxiously look 
-              forward to graduating and beginning my career full time.
-            </p>
-          </div>
+          
+            <div id="margin-mobile">
+              <img
+                src={require('../../img/portrait.png')}
+                alt="Connor Mote"
+                className="bio-image"
+              />
+            </div>
+            <div className="bio">
+              <h3 className="text-secondary bio-title">BIO</h3>
+              <div class="bio-text">
+                <p>
+                  Senior computer science and business student, graduating May,
+                  2020. I have worked with an array of technologies in diﬀerent
+                  settings and am excited to continue expanding my skills and to
+                  take on new challenges.
+                </p>
+                <p>
+                  I have worked with Python, C++ and SQL in my previous
+                  internships. Recently I've been diving into web development
+                  and have found it to be very enjoyable.
+                </p>
+              </div>
+            </div>
+       
           <div className="job job-1">
             <h3>Washington River Protection Solutions</h3>
             <h6>Sofware Egnineering Intern</h6>

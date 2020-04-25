@@ -29,9 +29,23 @@
     transform: translate3d(100%, 0, 0);
 
     .portrait {
-      background: url('../img/portrait_small.png');
+      background: url('../img/new_smImg.png');
       width: 150px;
       height: 150px;
+    }
+  }
+
+  #about {
+    h1 {
+      font-size: 4rem;
+      padding-top: 2rem;
+    }
+    .bio-title {
+      height: 15px;
+      line-height: 34px;
+    }
+    .bio-text {
+      font-size: 18px;
     }
   }
 
@@ -45,9 +59,30 @@
 
     grid-template-columns: 1fr;
     .bio-image {
-      content: url('../img/portrait3.png');
+      content: url('../img/new_smImg.png');
+    }
+
+    #margin-mobile {
+      margin-top: 2rem;
+      margin-bottom: -1.5rem;
     }
   }
+
+  #contact, #work, #about {
+    .lg-heading {
+      font-size: 4.5rem;
+      padding-top: 2rem;
+    }
+  }
+  .boxes {
+    margin-top: 2rem;
+    div {
+      font-size: 1rem;
+      padding: 1.2rem 2rem;
+      margin-bottom: 2rem;
+    }
+  }
+
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -62,8 +97,6 @@
     text-align: center;
 
     .sm-heading {
-      margin-bottom: 0rem;
-      padding: 0rem 0rem;
       font-size: 1.4rem;
     }
   }
@@ -72,7 +105,6 @@
     margin: 0 auto;
     a {
       float: left;
-  
     }
   }
 }
@@ -117,7 +149,7 @@
     transform: translate3d(100%, 0, 0);
 
     .portrait {
-      background: url('../img/portrait_small.png');
+      background: url('../img/new_smImg.png');
       width: 150px;
       height: 150px;
     }
@@ -154,9 +186,18 @@
   .sm-heading {
     max-width: 515px;
   }
-  // .projects {
-  //   grid-template-columns: repeat(3, 1fr);
-  // }
+
+  #about {
+    .bio-image {
+      content: url('../img/portrait3.png');
+    }
+    img {
+      transform: translate(0, 30%);
+    }
+    .bio {
+      margin-top: 2rem;
+    }
+  }
 }
 
 //Smartphones
@@ -164,8 +205,12 @@
   .sm-heading {
     max-width: 515px;
   }
-
-  // .projects {
-  //   grid-template-columns: repeat(4, 1fr);
-  // }
+  #about {
+    .bio {
+      margin-top: 2rem;
+    }
+    img {
+      transform: translate(0, 3%);
+    }
+  }
 }
