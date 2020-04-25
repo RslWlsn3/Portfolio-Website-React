@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5c82862072d3c655c453b0a4efe4afa2",
+    "revision": "7a19ef41cd5c4fa3b8950194d2943714",
     "url": "/Portfolio-Website-React/index.html"
   },
   {
-    "revision": "f2cdd3c15cbd6c6d276c",
-    "url": "/Portfolio-Website-React/static/css/main.6413088e.chunk.css"
+    "revision": "2baed62728a25dd0c966",
+    "url": "/Portfolio-Website-React/static/css/main.8e28dc91.chunk.css"
   },
   {
     "revision": "ff74e8bd88bb90c2d79a",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio-Website-React/static/js/2.f1a899a8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f2cdd3c15cbd6c6d276c",
-    "url": "/Portfolio-Website-React/static/js/main.614950e4.chunk.js"
+    "revision": "2baed62728a25dd0c966",
+    "url": "/Portfolio-Website-React/static/js/main.73a9f542.chunk.js"
   },
   {
     "revision": "283d2b2598af9f7e4d9f",
@@ -28,16 +28,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio-Website-React/static/media/SeniorPrj.b9e4a0b6.PNG"
   },
   {
+    "revision": "544f75f00f5418ffe793390c9ca22f9a",
+    "url": "/Portfolio-Website-React/static/media/new_smImg.544f75f0.png"
+  },
+  {
     "revision": "c77427b14506a00ed7870681dea8c49a",
     "url": "/Portfolio-Website-React/static/media/portrait.c77427b1.png"
   },
   {
     "revision": "e77819fd0d4f253bd81c1a4f6e279f2e",
     "url": "/Portfolio-Website-React/static/media/portrait3.e77819fd.png"
-  },
-  {
-    "revision": "c35a73e91ea6465262db19feb4e6a0e4",
-    "url": "/Portfolio-Website-React/static/media/portrait_small.c35a73e9.png"
   },
   {
     "revision": "d2b2f976abe2c9d598ea1ab166c0b027",
