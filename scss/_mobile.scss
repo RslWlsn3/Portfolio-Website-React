@@ -68,12 +68,17 @@
     }
   }
 
-  #contact,
+  #contact {
+    .lg-heading {
+      font-size: 3.5rem;
+      padding-top: 3rem;
+    }
+  }
   #work,
   #about {
     .lg-heading {
-      font-size: 4.5rem;
-      padding-top: 2.5rem;
+      font-size: 4rem;
+      padding-top: 3rem;      
     }
   }
   .boxes {
