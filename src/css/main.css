@@ -364,9 +364,11 @@ main#home h1 {
     margin-bottom: -1.5rem;
   }
 
-  #contact .lg-heading, #work .lg-heading, #about .lg-heading {
+  #contact .lg-heading,
+#work .lg-heading,
+#about .lg-heading {
     font-size: 4.5rem;
-    padding-top: 2rem;
+    padding-top: 2.5rem;
   }
 
   .boxes {
