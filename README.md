@@ -1,5 +1,5 @@
 # Porfolio Website
-A static portfolio website aimed to showcase my skills as a web developer. 
+A responsive and interactive portfolio website aimed to showcase my skills as a web developer. 
 
 ## Built With
 * React
