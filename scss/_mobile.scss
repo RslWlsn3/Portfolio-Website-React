@@ -1,6 +1,5 @@
 //Widescreens
 @include mediaSm {
-
   .lg-heading {
     line-height: 0.9;
     margin-bottom: 1rem;
@@ -30,9 +29,10 @@
     transform: translate3d(100%, 0, 0);
 
     .portrait {
-      background: url('../img/new_smImg.png');
+      background: url('../img/portrait_small.png');
       width: 150px;
       height: 150px;
+      background-size: cover;
     }
   }
 
@@ -60,7 +60,9 @@
 
     grid-template-columns: 1fr;
     .bio-image {
-      content: url('../img/new_smImg.png');
+      content: url('../img/portrait_small.png');
+      width: 150px;
+      height: 150px;
     }
 
     #margin-mobile {
@@ -124,6 +126,11 @@
     text-align: center;
   }
 
+  .bio-title {
+    height: 15px;
+    line-height: 34px;
+  }
+
   .lg-heading {
     line-height: 0.9;
     margin-bottom: 1rem;
@@ -157,9 +164,10 @@
     transform: translate3d(100%, 0, 0);
 
     .portrait {
-      background: url('../img/new_smImg.png');
+      background: url('../img/portrait_small.png');
       width: 150px;
       height: 150px;
+      background-size: cover;
     }
   }
 
@@ -173,7 +181,10 @@
 
     grid-template-columns: 1fr;
     .bio-image {
-      content: url('../img/portrait3.png');
+      content: url('../img/portrait.png');
+      width: 250px;
+      height: 250px;
+      transform: translate(0, 10%);
     }
   }
   .projects {
@@ -197,10 +208,12 @@
 
   #about {
     .bio-image {
-      content: url('../img/portrait3.png');
+      content: url('../img/portrait.png');
+      width: 300px;
+      height: 300px;
     }
     img {
-      transform: translate(0, 30%);
+      transform: translate(0, 15%);
     }
     .bio {
       margin-top: 2rem;

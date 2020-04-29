@@ -78,7 +78,8 @@
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  background: url("../img/portrait3.png");
+  background: url("../img/portrait.png");
+  background-size: cover;
   border-radius: 50%;
   border: solid 3px #336dff;
 }
@@ -137,7 +138,7 @@ body {
   line-height: 1.5;
 }
 body#bg-img {
-  background: url(../img/test6.jpg);
+  background: url(../img/background.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -234,6 +235,8 @@ main#home h1 {
   margin: auto;
   border-radius: 50%;
   border: #336dff 3px solid;
+  width: 350px;
+  height: 350px;
 }
 .about-info .bio {
   grid-area: bio;
@@ -341,9 +344,10 @@ main#home h1 {
     transform: translate3d(100%, 0, 0);
   }
   .menu-branding .portrait {
-    background: url("../img/new_smImg.png");
+    background: url("../img/portrait_small.png");
     width: 150px;
     height: 150px;
+    background-size: cover;
   }
 
   #about h1 {
@@ -363,7 +367,9 @@ main#home h1 {
     grid-template-columns: 1fr;
   }
   .about-info .bio-image {
-    content: url("../img/new_smImg.png");
+    content: url("../img/portrait_small.png");
+    width: 150px;
+    height: 150px;
   }
   .about-info #margin-mobile {
     margin-top: 2rem;
@@ -423,6 +429,11 @@ main#home h1 {
     text-align: center;
   }
 
+  .bio-title {
+    height: 15px;
+    line-height: 34px;
+  }
+
   .lg-heading {
     line-height: 0.9;
     margin-bottom: 1rem;
@@ -456,9 +467,10 @@ main#home h1 {
     transform: translate3d(100%, 0, 0);
   }
   .menu-branding .portrait {
-    background: url("../img/new_smImg.png");
+    background: url("../img/portrait_small.png");
     width: 150px;
     height: 150px;
+    background-size: cover;
   }
 
   .about-info {
@@ -466,7 +478,10 @@ main#home h1 {
     grid-template-columns: 1fr;
   }
   .about-info .bio-image {
-    content: url("../img/portrait3.png");
+    content: url("../img/portrait.png");
+    width: 250px;
+    height: 250px;
+    transform: translate(0, 10%);
   }
 
   .projects {
@@ -485,10 +500,12 @@ main#home h1 {
   }
 
   #about .bio-image {
-    content: url("../img/portrait3.png");
+    content: url("../img/portrait.png");
+    width: 300px;
+    height: 300px;
   }
   #about img {
-    transform: translate(0, 30%);
+    transform: translate(0, 15%);
   }
   #about .bio {
     margin-top: 2rem;

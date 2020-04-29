@@ -99,6 +99,8 @@ main {
     margin: auto;
     border-radius: 50%;
     border: $secondary-color 3px solid;
+    width: 350px;
+    height: 350px;
     //transform: scale(0.8);
   }
 
@@ -126,11 +128,11 @@ main {
   }
 }
 
-#work{
+#work {
   // .lg-heading{
   //   margin-top: 2rem;
   // }
-  .sm-heading{
+  .sm-heading {
     margin-bottom: 2rem;
   }
 }
@@ -193,6 +195,5 @@ main {
   color: #fff;
   height: 60px;
 }
-
 
 @import 'mobile';
