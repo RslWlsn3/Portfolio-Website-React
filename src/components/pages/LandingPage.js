@@ -9,8 +9,7 @@ import {
 import Header from '../layout/Header';
 
 function LandingPage() {
-  return (
-    //<Router> - alias for BrowserRouter imported above. exact prevents main page from allways showing
+  return (    
     <body id="bg-img">
       <div className="overlay"></div>
       <Header currentRoute={1} landingPage={true} />

@@ -22,22 +22,25 @@ function AboutMe() {
           <div className="bio">
             <h3 className="text-secondary bio-title">BIO</h3>
             <div class="bio-text">
+              <p>Hello, my name is Connor Mote.</p>
               <p>
-                Senior computer science and business student, graduating May,
-                2020. I have worked with an array of technologies in diﬀerent
-                settings and am excited to continue expanding my skills and to
-                take on new challenges.
+                I am a senior computer science and business student, graduating
+                in May 2020, with a passion for problem-solving. I've worked
+                with an array of technologies in diﬀerent settings and I look
+                forward to further expanding my skills and tackling new
+                challenges.
               </p>
               <p>
-                I have worked with Python, C++ and SQL in my previous
-                internships. Recently I've been diving into web development and
-                have found it to be very enjoyable.
+                In my previous internships, I worked with Python, C++, and SQL.
+                More recently, I've been working with web development
+                technologies such as React.js, Node.js, and Sass.
               </p>
             </div>
           </div>
 
           <div className="job job-1">
             <h3>Washington River Protection Solutions</h3>
+            <h5>Year 2</h5>
             <h6>Sofware Egnineering Intern</h6>
             <p>
               Researched how WRPS could integrate machine learning into its
@@ -52,6 +55,7 @@ function AboutMe() {
           </div>
           <div className="job job-2">
             <h3>Washington River Protection Solutions</h3>
+            <h5>Year 1</h5>
             <h6>Sofware Egnineering Intern</h6>
             <p>
               Developed a DLL bridge in C++ to facilitate communication between

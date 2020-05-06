@@ -240,7 +240,7 @@ main#home h1 {
 }
 .about-info .bio {
   grid-area: bio;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .about-info .job-1 {
   grid-area: job1;
@@ -255,6 +255,9 @@ main#home h1 {
   background: #515151;
   padding: 0.5rem;
   border-bottom: #336dff 5px solid;
+}
+.about-info .job h5 {
+  margin-bottom: -1rem;
 }
 
 #work .sm-heading {
@@ -354,10 +357,6 @@ main#home h1 {
     font-size: 4rem;
     padding-top: 2rem;
   }
-  #about .bio-title {
-    height: 15px;
-    line-height: 34px;
-  }
   #about .bio-text {
     font-size: 18px;
   }
@@ -430,7 +429,7 @@ main#home h1 {
   }
 
   .bio-title {
-    height: 15px;
+    height: 35px;
     line-height: 34px;
   }
 
@@ -520,7 +519,8 @@ main#home h1 {
     margin-top: 2rem;
   }
   #about img {
-    transform: translate(0, 3%);
+    transform: translate(0, 10%);
+    margin-bottom: 4rem;
   }
 }
 

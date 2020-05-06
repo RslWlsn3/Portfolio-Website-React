@@ -53,7 +53,7 @@ export default function Header({ currentRoute, landingPage }) {
   }
 
   return (
-    <header>
+    <header id="menu">
       <div className={menuButtonClasses} onClick={toggleMenu}>
         <div className={btnlineClasses}></div>
         <div className={btnlineClasses}></div>
